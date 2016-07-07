@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TimelineID17f0b083b87</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- Timeline generated in R 3.2.1 by googleVis 0.5.10 package -->
+<!-- Thu Mar 31 14:13:39 2016 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataTimelineID17f0b083b87 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "320-002",
+"CNS-AKL",
+new Date(2016,2,31,8,30,0),
+new Date(2016,2,31,16,30,0) 
+],
+[
+ "320-068",
+"CNS-AKL",
+new Date(2016,2,31,8,30,0),
+new Date(2016,2,31,16,30,0) 
+],
+[
+ "320-022",
+"CNS-AKL",
+new Date(2016,2,31,8,30,0),
+new Date(2016,2,31,16,30,0) 
+],
+[
+ "320-081",
+"CNS-AKL",
+new Date(2016,2,31,8,30,0),
+new Date(2016,2,31,16,30,0) 
+],
+[
+ "330-042",
+"MNL-AUH",
+new Date(2016,2,31,11,45,0),
+new Date(2016,2,31,17,35,0) 
+],
+[
+ "330-047",
+"MNL-AUH",
+new Date(2016,2,31,11,45,0),
+new Date(2016,2,31,17,35,0) 
+],
+[
+ "330-037",
+"MNL-AUH",
+new Date(2016,2,31,11,45,0),
+new Date(2016,2,31,17,35,0) 
+],
+[
+ "330-005",
+"MNL-AUH",
+new Date(2016,2,31,11,45,0),
+new Date(2016,2,31,17,35,0) 
+],
+[
+ "330-004",
+"MNL-AUH",
+new Date(2016,2,31,11,45,0),
+new Date(2016,2,31,17,35,0) 
+],
+[
+ "320-117",
+"MNL-BCD",
+new Date(2016,2,31,16,0,0),
+new Date(2016,2,31,17,15,0) 
+],
+[
+ "320-114",
+"MNL-BCD",
+new Date(2016,2,31,8,20,0),
+new Date(2016,2,31,9,35,0) 
+],
+[
+ "320-130",
+"MNL-BCD",
+new Date(2016,2,31,8,20,0),
+new Date(2016,2,31,9,35,0) 
+],
+[
+ "320-030",
+"MNL-BCD",
+new Date(2016,2,31,4,25,0),
+new Date(2016,2,31,5,40,0) 
+],
+[
+ "320-070",
+"MNL-BCD",
+new Date(2016,2,31,13,20,0),
+new Date(2016,2,31,14,35,0) 
+],
+[
+ "320-023",
+"MNL-BCD",
+new Date(2016,2,31,19,55,0),
+new Date(2016,2,31,21,5,0) 
+],
+[
+ "320-040",
+"MNL-BCD",
+new Date(2016,2,31,4,25,0),
+new Date(2016,2,31,5,40,0) 
+],
+[
+ "320-050",
+"MNL-BCD",
+new Date(2016,2,31,16,0,0),
+new Date(2016,2,31,17,15,0) 
+],
+[
+ "320-128",
+"MNL-BCD",
+new Date(2016,2,31,13,20,0),
+new Date(2016,2,31,14,35,0) 
+],
+[
+ "320-084",
+"MNL-BCD",
+new Date(2016,2,31,8,20,0),
+new Date(2016,2,31,9,35,0) 
+],
+[
+ "320-003",
+"MNL-BCD",
+new Date(2016,2,31,13,20,0),
+new Date(2016,2,31,14,35,0) 
+] 
+];
+data.addColumn('string','Name');
+data.addColumn('string','Position');
+data.addColumn('datetime','start');
+data.addColumn('datetime','end');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartTimelineID17f0b083b87() {
+var data = gvisDataTimelineID17f0b083b87();
+var options = {};
+options["width"] =    600;
+options["height"] =    350;
+options["timeline"] = {groupByRowLabel:false};
+options["backgroundColor"] = "#ffd";
+options["colors"] = ['#cbb69d', '#603913', '#c69c6e'];
+
+
+    var chart = new google.visualization.Timeline(
+    document.getElementById('TimelineID17f0b083b87')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "timeline";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTimelineID17f0b083b87);
+})();
+function displayChartTimelineID17f0b083b87() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTimelineID17f0b083b87"></script>
+ 
+<!-- divChart -->
+  
+<div id="TimelineID17f0b083b87" 
+  style="width: 600; height: 350;">
+</div>
+ <div><span>Data: datTL &#8226; Chart ID: <a href="Chart_TimelineID17f0b083b87.html">TimelineID17f0b083b87</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.2.1 Patched (2015-06-20 r68563) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/timeline">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
